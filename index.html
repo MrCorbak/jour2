@@ -3,44 +3,47 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>
-			test flexbox
+			Google
 		</title>
 		<link rel="stylesheet" href="styles/style.css" />
 	</head>
 	<body>
-	<div id="header">
-				<div class="Gmail">
-					<p>Gmail Images
-					<button class="acceuil">.</button>
-					<button>Connexion</button>
-					</p>
-				</div>
-	</div>
+	<div class="page">
+		<div id="header">
+					<div class="righthead">
+						<p><a class="Gmail" href="Gmail">Gmail</a> <a class="Images" href="Images">Images</a>
+						<img class="boutton acceuil" src="images/carre.svg" alt="boutton accueil" width="17px" height="17px" />
+						<button>Connexion</button>
+						</p>
+					</div>
+		</div>
 		<section id="conteneur">
-		<div id="logo">
+			<div id="logo">
 				<center>
 				<img src= "./images/google_logo.png" alt="logo google" />
-			</center>
-		</div>
-		<form id="GET">
-			<input type="search" placeholder="Recherche..." />
-			<div id="button">
-			<input type="SUBMIT" value="Recherche Google" />
-			<input type="SUBMIT" value="J'ai de la chance" />
+				</center>
 			</div>
+			<form id="GET">
+				<input class="btnseach" type="search" placeholder="Recherche..." />
+				<div id="button">
+					<input class="rchggl" type="SUBMIT" value="Recherche Google" />
+					<input class="rchance" type="SUBMIT" value="J'ai de la chance" />
+				</div>
 		</form>
-		<div id="langues">
-			<p>Google disponible en : <!--English--></p>
-		</div>
-	</section>
-	<div id="France">
-		<p>
-		France
-		</p>
-	</div>
-	<div id="footer">
+			<div id="langues">
+				<p>Google disponible en : <!--English--></p>
+			</div>
+		</section>
+		<section id="foot">
+		<div id="France">
+				<p>
+					France
+				</p>
+			</div>
+			<div id="footer">
 	
+			</div>
+		</section>
 	</div>
-
 	</body>
 </html>
