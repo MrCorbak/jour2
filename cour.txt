@@ -1,0 +1,18 @@
+cour sur la mise en page flexbox :
+
+flex-direction :
+row : organisés sur une ligne (par défaut)
+
+column : organisés sur une colonne
+
+row-reverse : organisés sur une ligne, mais en ordre inversé
+
+column-reverse : organisés sur une colonne, mais en ordre inversé
+
+flex-wrap :
+nowrap : pas de retour à la ligne (par défaut)
+
+wrap : les éléments vont à la ligne lorsqu'il n'y a plus la place
+
+wrap-reverse : les éléments vont à la ligne lorsqu'il n'y a plus la place en sens inversenowrap : pas de retour à la ligne (par défaut)
+
